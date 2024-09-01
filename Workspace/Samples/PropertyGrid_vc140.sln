@@ -1,0 +1,93 @@
+Microsoft Visual Studio Solution File, Format Version 14.00
+# Visual Studio 2015
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BindSample", "..\..\Samples\PropertyGrid\BindSample\BindSample_vc140.vcxproj", "{46277953-9532-8297-7384-288598346791}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrawCli", "..\..\Samples\PropertyGrid\DrawClient\drawcli_vc140.vcxproj", "{61983697-7688-7481-3935-417352765749}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OwnerDraw", "..\..\Samples\PropertyGrid\OwnerDraw\OwnerDraw_vc140.vcxproj", "{36491113-5356-1187-1198-812178897598}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropertyGrid", "..\..\Samples\PropertyGrid\GridSample\PropertyGrid_vc140.vcxproj", "{23371161-2516-9276-1593-674886652246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Debug|x64 = Unicode Debug|x64
+		Unicode Release|Win32 = Unicode Release|Win32
+		Unicode Release|x64 = Unicode Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46277953-9532-8297-7384-288598346791}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46277953-9532-8297-7384-288598346791}.Debug|Win32.Build.0 = Debug|Win32
+		{46277953-9532-8297-7384-288598346791}.Debug|x64.ActiveCfg = Debug|x64
+		{46277953-9532-8297-7384-288598346791}.Debug|x64.Build.0 = Debug|x64
+		{46277953-9532-8297-7384-288598346791}.Release|Win32.ActiveCfg = Release|Win32
+		{46277953-9532-8297-7384-288598346791}.Release|Win32.Build.0 = Release|Win32
+		{46277953-9532-8297-7384-288598346791}.Release|x64.ActiveCfg = Release|x64
+		{46277953-9532-8297-7384-288598346791}.Release|x64.Build.0 = Release|x64
+		{46277953-9532-8297-7384-288598346791}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{46277953-9532-8297-7384-288598346791}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{46277953-9532-8297-7384-288598346791}.Unicode Debug|x64.ActiveCfg = Unicode Debug|x64
+		{46277953-9532-8297-7384-288598346791}.Unicode Debug|x64.Build.0 = Unicode Debug|x64
+		{46277953-9532-8297-7384-288598346791}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{46277953-9532-8297-7384-288598346791}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+		{46277953-9532-8297-7384-288598346791}.Unicode Release|x64.ActiveCfg = Unicode Release|x64
+		{46277953-9532-8297-7384-288598346791}.Unicode Release|x64.Build.0 = Unicode Release|x64
+		{61983697-7688-7481-3935-417352765749}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61983697-7688-7481-3935-417352765749}.Debug|Win32.Build.0 = Debug|Win32
+		{61983697-7688-7481-3935-417352765749}.Debug|x64.ActiveCfg = Debug|x64
+		{61983697-7688-7481-3935-417352765749}.Debug|x64.Build.0 = Debug|x64
+		{61983697-7688-7481-3935-417352765749}.Release|Win32.ActiveCfg = Release|Win32
+		{61983697-7688-7481-3935-417352765749}.Release|Win32.Build.0 = Release|Win32
+		{61983697-7688-7481-3935-417352765749}.Release|x64.ActiveCfg = Release|x64
+		{61983697-7688-7481-3935-417352765749}.Release|x64.Build.0 = Release|x64
+		{61983697-7688-7481-3935-417352765749}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{61983697-7688-7481-3935-417352765749}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{61983697-7688-7481-3935-417352765749}.Unicode Debug|x64.ActiveCfg = Unicode Debug|x64
+		{61983697-7688-7481-3935-417352765749}.Unicode Debug|x64.Build.0 = Unicode Debug|x64
+		{61983697-7688-7481-3935-417352765749}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{61983697-7688-7481-3935-417352765749}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+		{61983697-7688-7481-3935-417352765749}.Unicode Release|x64.ActiveCfg = Unicode Release|x64
+		{61983697-7688-7481-3935-417352765749}.Unicode Release|x64.Build.0 = Unicode Release|x64
+		{36491113-5356-1187-1198-812178897598}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36491113-5356-1187-1198-812178897598}.Debug|Win32.Build.0 = Debug|Win32
+		{36491113-5356-1187-1198-812178897598}.Debug|x64.ActiveCfg = Debug|x64
+		{36491113-5356-1187-1198-812178897598}.Debug|x64.Build.0 = Debug|x64
+		{36491113-5356-1187-1198-812178897598}.Release|Win32.ActiveCfg = Release|Win32
+		{36491113-5356-1187-1198-812178897598}.Release|Win32.Build.0 = Release|Win32
+		{36491113-5356-1187-1198-812178897598}.Release|x64.ActiveCfg = Release|x64
+		{36491113-5356-1187-1198-812178897598}.Release|x64.Build.0 = Release|x64
+		{36491113-5356-1187-1198-812178897598}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{36491113-5356-1187-1198-812178897598}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{36491113-5356-1187-1198-812178897598}.Unicode Debug|x64.ActiveCfg = Unicode Debug|x64
+		{36491113-5356-1187-1198-812178897598}.Unicode Debug|x64.Build.0 = Unicode Debug|x64
+		{36491113-5356-1187-1198-812178897598}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{36491113-5356-1187-1198-812178897598}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+		{36491113-5356-1187-1198-812178897598}.Unicode Release|x64.ActiveCfg = Unicode Release|x64
+		{36491113-5356-1187-1198-812178897598}.Unicode Release|x64.Build.0 = Unicode Release|x64
+		{23371161-2516-9276-1593-674886652246}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23371161-2516-9276-1593-674886652246}.Debug|Win32.Build.0 = Debug|Win32
+		{23371161-2516-9276-1593-674886652246}.Debug|x64.ActiveCfg = Debug|x64
+		{23371161-2516-9276-1593-674886652246}.Debug|x64.Build.0 = Debug|x64
+		{23371161-2516-9276-1593-674886652246}.Release|Win32.ActiveCfg = Release|Win32
+		{23371161-2516-9276-1593-674886652246}.Release|Win32.Build.0 = Release|Win32
+		{23371161-2516-9276-1593-674886652246}.Release|x64.ActiveCfg = Release|x64
+		{23371161-2516-9276-1593-674886652246}.Release|x64.Build.0 = Release|x64
+		{23371161-2516-9276-1593-674886652246}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{23371161-2516-9276-1593-674886652246}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{23371161-2516-9276-1593-674886652246}.Unicode Debug|x64.ActiveCfg = Unicode Debug|x64
+		{23371161-2516-9276-1593-674886652246}.Unicode Debug|x64.Build.0 = Unicode Debug|x64
+		{23371161-2516-9276-1593-674886652246}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{23371161-2516-9276-1593-674886652246}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+		{23371161-2516-9276-1593-674886652246}.Unicode Release|x64.ActiveCfg = Unicode Release|x64
+		{23371161-2516-9276-1593-674886652246}.Unicode Release|x64.Build.0 = Unicode Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

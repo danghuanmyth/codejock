@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 14.00
+# Visual Studio 2015
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Codejock.ToolkitPro.ResourcePl", "ResourcePl_vc140.vcxproj", "{93938212-5828-4511-2378-155199797462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93938212-5828-4511-2378-155199797462}.Release|Win32.ActiveCfg = Release|Win32
+		{93938212-5828-4511-2378-155199797462}.Release|Win32.Build.0 = Release|Win32
+		{93938212-5828-4511-2378-155199797462}.Release|x64.ActiveCfg = Release|x64
+		{93938212-5828-4511-2378-155199797462}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{41931930-6e3b-415f-a773-3c9d041620e1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ebea063a-31b6-4b78-9906-6ddd4ae1fca8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{407f7c21-fb50-4d79-82f3-3d028219c970}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{2c789f8a-4aef-4f0b-8079-9463a07a9055}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DialogSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FiltersDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinControls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinControlsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkinControls.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DialogSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FiltersDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinControlsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SkinControls.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SkinControls.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Office2007.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Vista.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\WinXP.Luna.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\WinXP.Royale.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

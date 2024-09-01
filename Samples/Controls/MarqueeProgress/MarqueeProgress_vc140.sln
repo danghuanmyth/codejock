@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 14.00
+# Visual Studio 2015
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarqueeProgress", "MarqueeProgress_vc140.vcxproj", "{88952277-2868-5678-9188-272937395281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Debug|x64 = Unicode Debug|x64
+		Unicode Release|Win32 = Unicode Release|Win32
+		Unicode Release|x64 = Unicode Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88952277-2868-5678-9188-272937395281}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88952277-2868-5678-9188-272937395281}.Debug|Win32.Build.0 = Debug|Win32
+		{88952277-2868-5678-9188-272937395281}.Debug|x64.ActiveCfg = Debug|x64
+		{88952277-2868-5678-9188-272937395281}.Debug|x64.Build.0 = Debug|x64
+		{88952277-2868-5678-9188-272937395281}.Release|Win32.ActiveCfg = Release|Win32
+		{88952277-2868-5678-9188-272937395281}.Release|Win32.Build.0 = Release|Win32
+		{88952277-2868-5678-9188-272937395281}.Release|x64.ActiveCfg = Release|x64
+		{88952277-2868-5678-9188-272937395281}.Release|x64.Build.0 = Release|x64
+		{88952277-2868-5678-9188-272937395281}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{88952277-2868-5678-9188-272937395281}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{88952277-2868-5678-9188-272937395281}.Unicode Debug|x64.ActiveCfg = Unicode Debug|x64
+		{88952277-2868-5678-9188-272937395281}.Unicode Debug|x64.Build.0 = Unicode Debug|x64
+		{88952277-2868-5678-9188-272937395281}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{88952277-2868-5678-9188-272937395281}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+		{88952277-2868-5678-9188-272937395281}.Unicode Release|x64.ActiveCfg = Unicode Release|x64
+		{88952277-2868-5678-9188-272937395281}.Unicode Release|x64.Build.0 = Unicode Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

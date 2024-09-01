@@ -1,0 +1,1202 @@
+﻿生成启动时间为 2024/9/1 10:01:05。
+     1>项目“E:\Work\MFCUI\install\Xtreme ToolkitPro v15.3.1\Workspace\ToolkitPro\ToolkitProShared_vc140.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Tool\AInstall\VS2015\VC\bin\CL.exe /c /I../../Source /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _AFXEXT /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /D WINVER=0x0501 /D _WIN32_WINNT=0x0501 /D _WIN32_IE=0x0600 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp".\Debug/vc140/ToolkitProShared.pch" /Fo".\Debug/vc140/" /Fd".\Debug/vc140/vc140.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         D:\Tool\AInstall\VS2015\VC\bin\CL.exe /c /I../../Source /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _AFXEXT /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /D WINVER=0x0501 /D _WIN32_WINNT=0x0501 /D _WIN32_IE=0x0600 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug/vc140/ToolkitProShared.pch" /Fo".\Debug/vc140/" /Fd".\Debug/vc140/vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ToolkitPro.cpp ..\..\Source\Calendar\XTPCalendarCaptionBarControl.cpp ..\..\Source\Calendar\XTPCalendarControl.cpp ..\..\Source\Calendar\XTPCalendarController.cpp ..\..\Source\Calendar\XTPCalendarControlView.cpp ..\..\Source\Calendar\XTPCalendarCustomDataProvider.cpp ..\..\Source\Calendar\XTPCalendarCustomProperties.cpp ..\..\Source\Calendar\XTPCalendarData.cpp ..\..\Source\Calendar\XTPCalendarDatabaseDataProvider.cpp ..\..\Source\Calendar\XTPCalendarDayView.cpp ..\..\Source\Calendar\XTPCalendarDayViewDay.cpp ..\..\Source\Calendar\XTPCalendarDayViewEvent.cpp ..\..\Source\Calendar\XTPCalendarDayViewTimeScale.cpp ..\..\Source\Calendar\XTPCalendarEvent.cpp ..\..\Source\Calendar\XTPCalendarEventLabel.cpp ..\..\Source\Calendar\XTPCalendarEventPropertiesDlg.cpp ..\..\Source\Calendar\XTPCalendarEventRecurrenceDlg.cpp ..\..\Source\Calendar\XTPCalendarEvents.cpp ..\..\Source\Calendar\XTPCalendarMAPIDataProvider.cpp ..\..\Source\Calendar\XTPCalendarMAPIWrapper.cpp ..\..\Source\Calendar\XTPCalendarMemoryDataProvider.cpp ..\..\Source\Calendar\XTPCalendarMonthView.cpp ..\..\Source\Calendar\XTPCalendarMonthViewDay.cpp ..\..\Source\Calendar\XTPCalendarMonthViewEvent.cpp ..\..\Source\Calendar\XTPCalendarMsgNotifier.cpp ..\..\Source\Calendar\XTPCalendarOccurSeriesChooseDlg.cpp ..\..\Source\Calendar\XTPCalendarOptions.cpp ..\..\Source\Calendar\XTPCalendarPaintManager.cpp ..\..\Source\Calendar\XTPCalendarRecurrencePattern.cpp ..\..\Source\Calendar\XTPCalendarRemindersDialog.cpp ..\..\Source\Calendar\XTPCalendarRemindersManager.cpp ..\..\Source\Calendar\XTPCalendarResource.cpp ..\..\Source\Calendar\XTPCalendarResourcesManager.cpp ..\..\Source\Calendar\XTPCalendarTheme.cpp ..\..\Source\Calendar\XTPCalendarThemeOffice2007.cpp ..\..\Source\Calendar\XTPCalendarTimeLineView.cpp ..\..\Source\Calendar\XTPCalendarTimeLineViewGroup.cpp ..\..\Source\Calendar\XTPCalendarTimeLineViewTimeScale.cpp ..\..\Source\Calendar\XTPCalendarTimeZoneHelper.cpp ..\..\Source\Calendar\XTPCalendarTip.cpp ..\..\Source\Calendar\XTPCalendarUtils.cpp ..\..\Source\Calendar\XTPCalendarView.cpp ..\..\Source\Calendar\XTPCalendarViewDay.cpp ..\..\Source\Calendar\XTPCalendarViewEvent.cpp ..\..\Source\Calendar\XTPCalendarViewPart.cpp ..\..\Source\Calendar\XTPCalendarWeekView.cpp ..\..\Source\Calendar\XTPCalendarWeekViewDay.cpp ..\..\Source\Calendar\XTPCalendarWeekViewEvent.cpp ..\..\Source\Calendar\XTPDatePickerControl.cpp ..\..\Source\Calendar\XTPDatePickerDaysCollection.cpp ..\..\Source\Calendar\XTPDatePickerItemDay.cpp ..\..\Source\Calendar\XTPDatePickerItemMonth.cpp ..\..\Source\Calendar\XTPDatePickerList.cpp ..\..\Source\Calendar\XTPDatePickerPaintManager.cpp ..\..\Source\Chart\XTPChartContent.cpp ..\..\Source\Chart\XTPChartContentView.cpp ..\..\Source\Chart\XTPChartControl.cpp ..\..\Source\Chart\XTPChartDiagram.cpp ..\..\Source\Chart\XTPChartElement.cpp ..\..\Source\Chart\XTPChartElementView.cpp ..\..\Source\Chart\XTPChartLegend.cpp ..\..\Source\Chart\XTPChartLegendItem.cpp ..\..\Source\Chart\XTPChartLegendView.cpp ..\..\Source\Chart\XTPChartPanel.cpp ..\..\Source\Chart\XTPChartSeries.cpp ..\..\Source\Chart\XTPChartSeriesLabel.cpp ..\..\Source\Chart\XTPChartSeriesLabelView.cpp ..\..\Source\Chart\XTPChartSeriesPoint.cpp ..\..\Source\Chart\XTPChartSeriesPointView.cpp ..\..\Source\Chart\XTPChartSeriesStyle.cpp ..\..\Source\Chart\XTPChartSeriesView.cpp ..\..\Source\Chart\XTPChartTitle.cpp ..\..\Source\Chart\XTPChartTitleView.cpp ..\..\Source\Chart\Appearance\XTPChartAppearance.cpp ..\..\Source\Chart\Appearance\XTPChartBorder.cpp ..\..\Source\Chart\Appearance\XTPChartFillStyle.cpp ..\..\Source\Chart\Appearance\XTPChartLineStyle.cpp ..\..\Source\Chart\Appearance\XTPChartPalette.cpp ..\..\Source\Chart\Drawing\XTPChartCircleDeviceCommand.cpp ..\..\Source\Chart\Drawing\XTPChartDeviceCommand.cpp ..\..\Source\Chart\Drawing\XTPChartDeviceContext.cpp ..\..\Source\Chart\Drawing\XTPChartDrawThread.cpp ..\..\Source\Chart\Drawing\XTPChartLineDeviceCommand.cpp ..\..\Source\Chart\Drawing\XTPChartPieDeviceCommand.cpp ..\..\Source\Chart\Drawing\XTPChartPolygonDeviceCommand.cpp ..\..\Source\Chart\Drawing\XTPChartRectangleDeviceCommand.cpp ..\..\Source\Chart\Drawing\XTPChartTextDeviceCommand.cpp ..\..\Source\Chart\Drawing\XTPChartTransformationDeviceCommand.cpp ..\..\Source\Chart\Types\XTPChartPie.cpp ..\..\Source\Chart\Types\XTPChartTypes.cpp ..\..\Source\Chart\Utils\XTPChartNumberFormat.cpp ..\..\Source\Chart\Utils\XTPChartTextPainter.cpp ..\..\Source\Chart\Styles\Pie\XTPChartPieDiagram.cpp ..\..\Source\Chart\Styles\Pie\XTPChartPieSeriesLabel.cpp ..\..\Source\Chart\Styles\Pie\XTPChartPieSeriesPointView.cpp ..\..\Source\Chart\Styles\Pie\XTPChartPieSeriesStyle.cpp ..\..\Source\Chart\Styles\Pie\XTPChartPieSeriesView.cpp ..\..\Source\Chart\Styles\Point\XTPChartBubbleSeriesLabel.cpp ..\..\Source\Chart\Styles\Point\XTPChartBubbleSeriesStyle.cpp ..\..\Source\Chart\Styles\Point\XTPChartMarker.cpp ..\..\Source\Chart\Styles\Point\XTPChartPointSeriesLabel.cpp ..\..\Source\Chart\Styles\Point\XTPChartPointSeriesStyle.cpp ..\..\Source\Chart\Styles\Bar\XTPChartBarSeriesLabel.cpp ..\..\Source\Chart\Styles\Bar\XTPChartBarSeriesStyle.cpp ..\..\Source\Chart\Styles\Bar\XTPChartStackedBarSeriesStyle.cpp ..\..\Source\Chart\Styles\Area\XTPChartAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Area\XTPChartRangeAreaSeriesLabel.cpp ..\..\Source\Chart\Styles\Area\XTPChartRangeSplineAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Area\XTPChartSplineAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Area\XTPChartStackedAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Area\XTPChartStackedSplineAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Area\XTPChartStepAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Financial\XTPChartCandleStickSeriesStyle.cpp ..\..\Source\Chart\Styles\Financial\XTPChartHighLowSeriesStyle.cpp ..\..\Source\Chart\Styles\Line\XTPChartFastLineSeriesStyle.cpp ..\..\Source\Chart\Styles\Line\XTPChartLineSeriesStyle.cpp ..\..\Source\Chart\Styles\Line\XTPChartScatterLineSeriesStyle.cpp ..\..\Source\Chart\Styles\Line\XTPChartSplineSeriesStyle.cpp ..\..\Source\Chart\Styles\Line\XTPChartStepLineSeriesStyle.cpp ..\..\Source\Chart\Styles\Funnel\XTPChartFunnelDiagram.cpp ..\..\Source\Chart\Styles\Funnel\XTPChartFunnelSeriesLabel.cpp ..\..\Source\Chart\Styles\Funnel\XTPChartFunnelSeriesStyle.cpp ..\..\Source\Chart\Styles\Pyramid\XTPChartPyramidDiagram.cpp ..\..\Source\Chart\Styles\Pyramid\XTPChartPyramidSeriesLabel.cpp ..\..\Source\Chart\Styles\Pyramid\XTPChartPyramidSeriesStyle.cpp ..\..\Source\Chart\Styles\Range\XTPChartGanttSeriesStyle.cpp ..\..\Source\Chart\Styles\Range\XTPChartRangeBarSeriesLabel.cpp ..\..\Source\Chart\Styles\Range\XTPChartRangeBarSeriesStyle.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarAreaSeriesView.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarLineSeriesStyle.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarLineSeriesView.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarPointSeriesLabel.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarPointSeriesStyle.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarPointSeriesView.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarSplineAreaSeriesStyle.cpp ..\..\Source\Chart\Styles\Radar\XTPChartRadarSplineSeriesStyle.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxis.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisConstantLines.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisCustomLabels.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisGridLines.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisLabel.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisRange.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisStrips.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisTickMarks.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisTitle.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartAxisView.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartRadarAxis.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartRadarAxisXView.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartRadarAxisYView.cpp ..\..\Source\Chart\Diagram\Axis\XTPChartScaleTypeMap.cpp ..\..\Source\Chart\Diagram\Diagram2D\XTPChartDiagram2D.cpp ..\..\Source\Chart\Diagram\Diagram2D\XTPChartDiagram2DPane.cpp ..\..\Source\Chart\Diagram\Diagram2D\XTPChartDiagram2DSeriesLabel.cpp ..\..\Source\Chart\Diagram\Diagram2D\XTPChartDiagram2DSeriesStyle.cpp ..\..\Source\Chart\Diagram\Diagram2D\XTPChartDiagram2DSeriesView.cpp ..\..\Source\Chart\Diagram\Diagram2D\XTPChartDiagram2DView.cpp ..\..\Source\Chart\Diagram\RadarDiagram\XTPChartRadarDiagram.cpp ..\..\Source\Chart\Diagram\RadarDiagram\XTPChartRadarDiagramSeriesStyle.cpp ..\..\Source\Chart\Diagram\RadarDiagram\XTPChartRadarDiagramSeriesView.cpp ..\..\Source\Chart\Diagram\RadarDiagram\XTPChartRadarDiagramView.cpp ..\..\Source\CommandBars\XTPCommandBar.cpp ..\..\Source\CommandBars\XTPCommandBarAnimation.cpp ..\..\Source\CommandBars\XTPCommandBars.cpp ..\..\Source\CommandBars\XTPCommandBarsFrameHook.cpp ..\..\Source\CommandBars\XTPControl.cpp ..\..\Source\CommandBars\XTPControlButton.cpp ..\..\Source\CommandBars\XTPControlComboBox.cpp ..\..\Source\CommandBars\XTPControlComboBoxExt.cpp ..\..\Source\CommandBars\XTPControlCustom.cpp ..\..\Source\CommandBars\XTPControlEdit.cpp ..\..\Source\CommandBars\XTPControlExt.cpp ..\..\Source\CommandBars\XTPControlGallery.cpp ..\..\Source\CommandBars\XTPControlListBox.cpp ..\..\Source\CommandBars\XTPControlPopup.cpp ..\..\Source\CommandBars\XTPControlPopupColor.cpp ..\..\Source\CommandBars\XTPControlProgress.cpp ..\..\Source\CommandBars\XTPControls.cpp ..\..\Source\CommandBars\XTPControlScrollBar.cpp ..\..\Source\CommandBars\XTPControlSlider.cpp ..\..\Source\CommandBars\XTPCustomizeCommandsPage.cpp ..\..\Source\CommandBars\XTPCustomizeKeyboardPage.cpp ..\..\Source\CommandBars\XTPCustomizeMenusPage.cpp ..\..\Source\CommandBars\XTPCustomizeOptionsPage.cpp ..\..\Source\CommandBars\XTPCustomizeSheet.cpp ..\..\Source\CommandBars\XTPCustomizeToolbarsPage.cpp ..\..\Source\CommandBars\XTPCustomizeTools.cpp ..\..\Source\CommandBars\XTPDefaultTheme.cpp ..\..\Source\CommandBars\XTPDialogBar.cpp ..\..\Source\CommandBars\XTPDockBar.cpp ..\..\Source\CommandBars\XTPDockContext.cpp ..\..\Source\CommandBars\XTPDockState.cpp ..\..\Source\CommandBars\XTPFrameWnd.cpp ..\..\Source\CommandBars\XTPGalleryListBox.cpp ..\..\Source\CommandBars\XTPImageEditor.cpp ..\..\Source\CommandBars\XTPKeyboardManager.cpp ..\..\Source\CommandBars\XTPMenuBar.cpp ..\..\Source\CommandBars\XTPMessageBar.cpp ..\..\Source\CommandBars\XTPMiniToolBar.cpp ..\..\Source\CommandBars\XTPMouseManager.cpp ..\..\Source\CommandBars\XTPNativeXPTheme.cpp ..\..\Source\CommandBars\XTPOffice2003Theme.cpp ..\..\Source\CommandBars\XTPOfficeTheme.cpp ..\..\Source\CommandBars\XTPPaintManager.cpp ..\..\Source\CommandBars\XTPPopupBar.cpp ..\..\Source\CommandBars\XTPPreviewView.cpp ..\..\Source\CommandBars\XTPReBar.cpp ..\..\Source\CommandBars\XTPRecentFileList.cpp ..\..\Source\CommandBars\XTPResourceTheme.cpp ..\..\Source\CommandBars\XTPScrollBase.cpp ..\..\Source\CommandBars\XTPShortcutManager.cpp ..\..\Source\CommandBars\XTPStatusBar.cpp ..\..\Source\CommandBars\XTPTabClientWnd.cpp ..\..\Source\CommandBars\XTPTabToolBar.cpp ..\..\Source\CommandBars\XTPToolBar.cpp ..\..\Source\Common\XTPColorManager.cpp ..\..\Source\Common\XTPDrawHelpers.cpp ..\..\Source\Common\XTPHookManager.cpp ..\..\Source\Common\XTPImageManager.cpp ..\..\Source\Common\XTPMarkupRender.cpp ..\..\Source\Common\XTPMathUtils.cpp ..\..\Source\Common\XTPNotifyConnection.cpp ..\..\Source\Common\XTPNumberFormat.cpp ..\..\Source\Common\XTPPropExchange.cpp ..\..\Source\Common\XTPResourceImage.cpp ..\..\Source\Common\XTPResourceManager.cpp ..\..\Source\Common\XTPRichRender.cpp ..\..\Source\Common\XTPSystemHelpers.cpp ..\..\Source\Common\XTPToolTipContext.cpp ..\..\Source\Common\XTPWinThemeWrapper.cpp ..\..\Source\Common\Base\Types\XTPPoint2.cpp ..\..\Source\Common\Base\Types\XTPPoint3.cpp ..\..\Source\Controls\Button\XTPButton.cpp ..\..\Source\Controls\Button\XTPButtonTheme.cpp ..\..\Source\Controls\Button\XTPColorPicker.cpp ..\..\Source\Controls\Combo\XTPComboBox.cpp ..\..\Source\Controls\Combo\XTPFontComboBox.cpp ..\..\Source\Controls\Dialog\XTPBrowseDialog.cpp ..\..\Source\Controls\Dialog\XTPColorDialog.cpp ..\..\Source\Controls\Dialog\XTPColorPageCustom.cpp ..\..\Source\Controls\Dialog\XTPColorPageStandard.cpp ..\..\Source\Controls\Dialog\XTPPropertyPage.cpp ..\..\Source\Controls\Dialog\XTPPropertyPageNavigator.cpp ..\..\Source\Controls\Dialog\XTPPropertySheet.cpp ..\..\Source\Controls\Dialog\XTPTaskDialog.cpp ..\..\Source\Controls\Dialog\XTPTaskDialogAPI.cpp ..\..\Source\Controls\Dialog\XTPTaskDialogClient.cpp ..\..\Source\Controls\Dialog\XTPTaskDialogControls.cpp ..\..\Source\Controls\Dialog\XTPTaskDialogFrame.cpp ..\..\Source\Controls\Dialog\XTPTipOfTheDay.cpp ..\..\Source\Controls\Dialog\XTPWindowList.cpp ..\..\Source\Controls\Edit\XTPBrowseEdit.cpp ..\..\Source\Controls\Edit\XTPEdit.cpp ..\..\Source\Controls\Edit\XTPHexEdit.cpp ..\..\Source\Controls\Edit\XTPMaskEdit.cpp ..\..\Source\Controls\Header\XTPHeaderCtrl.cpp ..\..\Source\Controls\Header\XTPHeaderCtrlTheme.cpp ..\..\Source\Controls\List\XTPListBase.cpp ..\..\Source\Controls\List\XTPListCtrlView.cpp ..\..\Source\Controls\List\XTPSortClass.cpp ..\..\Source\Controls\ListBox\XTPCheckListBox.cpp ..\..\Source\Controls\ListBox\XTPEditListBox.cpp ..\..\Source\Controls\ListBox\XTPListBox.cpp ..\..\Source\Controls\ListBox\XTPMarkupListBox.cpp ..\..\Source\Controls\ListBox\XTPShortcutListBox.cpp ..\..\Source\Controls\ListBox\XTPShortcutListBoxTheme.cpp ..\..\Source\Controls\Popup\XTPColorPopup.cpp ..\..\Source\Controls\Popup\XTPColorSelectorCtrl.cpp ..\..\Source\Controls\Popup\XTPPopupControl.cpp ..\..\Source\Controls\Popup\XTPPopupItem.cpp ..\..\Source\Controls\Popup\XTPPopupPaintManager.cpp ..\..\Source\Controls\Popup\XTPTipWindow.cpp ..\..\Source\Controls\Progress\XTPMarqueeCtrl.cpp ..\..\Source\Controls\Progress\XTPProgressCtrl.cpp ..\..\Source\Controls\Resize\XTPResize.cpp ..\..\Source\Controls\Resize\XTPResizeDialog.cpp ..\..\Source\Controls\Resize\XTPResizeFormView.cpp ..\..\Source\Controls\Resize\XTPResizeGroupBox.cpp ..\..\Source\Controls\Resize\XTPResizePoint.cpp ..\..\Source\Controls\Resize\XTPResizePropertyPage.cpp ..\..\Source\Controls\Resize\XTPResizePropertySheet.cpp ..\..\Source\Controls\Resize\XTPResizeRect.cpp ..\..\Source\Controls\Scroll\XTPPageScroller.cpp ..\..\Source\Controls\Scroll\XTPScrollBar.cpp ..\..\Source\Controls\Shell\XTPDirWatcher.cpp ..\..\Source\Controls\Shell\XTPDropSource.cpp ..\..\Source\Controls\Shell\XTPShellListBase.cpp ..\..\Source\Controls\Shell\XTPShellListCtrlView.cpp ..\..\Source\Controls\Shell\XTPShellPidl.cpp ..\..\Source\Controls\Shell\XTPShellSettings.cpp ..\..\Source\Controls\Shell\XTPShellTreeBase.cpp ..\..\Source\Controls\Shell\XTPShellTreeCtrlView.cpp ..\..\Source\Controls\Shell\XTPTaskbarManager.cpp ..\..\Source\Controls\Shell\XTPTrayIcon.cpp ..\..\Source\Controls\Spin\XTPSpinButtonCtrl.cpp ..\..\Source\Controls\Splitter\XTPSplitterWnd.cpp ..\..\Source\Controls\Splitter\XTPSplitterWndTheme.cpp ..\..\Source\Controls\Static\XTPCaption.cpp ..\..\Source\Controls\Static\XTPCaptionPopupWnd.cpp ..\..\Source\Controls\Static\XTPCaptionTheme.cpp ..\..\Source\Controls\Static\XTPHyperLink.cpp ..\..\Source\Controls\Static\XTPMarkupStatic.cpp ..\..\Source\Controls\Static\XTPSearchOptionsCtrl.cpp ..\..\Source\Controls\Tab\XTPExcelTabCtrl.cpp ..\..\Source\Controls\Tab\XTPExcelTabCtrlTheme.cpp ..\..\Source\Controls\Tab\XTPMDIWndTab.cpp ..\..\Source\Controls\Tab\XTPTabBase.cpp ..\..\Source\Controls\Tab\XTPTabBaseTheme.cpp ..\..\Source\Controls\Tab\XTPTabCtrl.cpp ..\..\Source\Controls\Tab\XTPTabCtrlButtons.cpp ..\..\Source\Controls\Tab\XTPTabView.cpp ..\..\Source\Controls\Tree\XTPMarkupTreeCtrl.cpp ..\..\Source\Controls\Tree\XTPTreeBase.cpp ..\..\Source\Controls\Tree\XTPTreeCtrlView.cpp ..\..\Source\Controls\Util\XTPAnimationDC.cpp ..\..\Source\Controls\Util\XTPControlTheme.cpp ..\..\Source\Controls\Util\XTPFunctions.cpp ..\..\Source\Controls\Util\XTPGlobal.cpp ..\..\Source\Controls\Util\XTPMemFile.cpp ..\..\Source\Controls\Util\XTPRegistryManager.cpp ..\..\Source\Controls\Util\XTPUtil.cpp ..\..\Source\Controls\Util\XTPWindowPos.cpp ..\..\Source\Controls\Deprecated\XTButton.cpp ..\..\Source\Controls\Deprecated\XTButtonTheme.cpp ..\..\Source\Controls\Deprecated\XTColorRef.cpp ..\..\Source\Controls\Deprecated\XTComboBoxEx.cpp ..\..\Source\Controls\Deprecated\XTDateTimeCtrl.cpp ..\..\Source\Controls\Deprecated\XTFlatComboBox.cpp ..\..\Source\Controls\Deprecated\XTFlatControlsTheme.cpp ..\..\Source\Controls\Deprecated\XTHtmlView.cpp ..\..\Source\Controls\Deprecated\XTMemDC.cpp ..\..\Source\Controls\Deprecated\XTOutBarCtrl.cpp ..\..\Source\Controls\Deprecated\XTOutBarCtrlTheme.cpp ..\..\Source\Controls\Deprecated\XTThemeManager.cpp ..\..\Source\Controls\Deprecated\XTVC50Helpers.cpp ..\..\Source\Controls\View\XTPMarkupView.cpp ..\..\Source\Controls\CoreTree\XTPCoreTreeControl.cpp ..\..\Source\Controls\CoreTree\XTPCoreTreeItem.cpp ..\..\Source\Controls\CoreTree\XTPCoreTreePaintManager.cpp ..\..\Source\DockingPane\XTPDockingPane.cpp ..\..\Source\DockingPane\XTPDockingPaneAutoHidePanel.cpp ..\..\Source\DockingPane\XTPDockingPaneBase.cpp ..\..\Source\DockingPane\XTPDockingPaneBaseContainer.cpp ..\..\Source\DockingPane\XTPDockingPaneContext.cpp ..\..\Source\DockingPane\XTPDockingPaneKeyboardHook.cpp ..\..\Source\DockingPane\XTPDockingPaneLayout.cpp ..\..\Source\DockingPane\XTPDockingPaneManager.cpp ..\..\Source\DockingPane\XTPDockingPaneMiniWnd.cpp ..\..\Source\DockingPane\XTPDockingPanePaintManager.cpp ..\..\Source\DockingPane\XTPDockingPaneSidePanel.cpp ..\..\Source\DockingPane\XTPDockingPaneSplitterContainer.cpp ..\..\Source\DockingPane\XTPDockingPaneTabbedContainer.cpp ..\..\Source\FlowGraph\XTPFlowGraphConnection.cpp ..\..\Source\FlowGraph\XTPFlowGraphConnectionPoint.cpp ..\..\Source\FlowGraph\XTPFlowGraphConnectionPoints.cpp ..\..\Source\FlowGraph\XTPFlowGraphConnections.cpp ..\..\Source\FlowGraph\XTPFlowGraphControl.cpp ..\..\Source\FlowGraph\XTPFlowGraphDrawContext.cpp ..\..\Source\FlowGraph\XTPFlowGraphDrawContextGdiPlus.cpp ..\..\Source\FlowGraph\XTPFlowGraphEditItem.cpp ..\..\Source\FlowGraph\XTPFlowGraphElement.cpp ..\..\Source\FlowGraph\XTPFlowGraphImage.cpp ..\..\Source\FlowGraph\XTPFlowGraphMetallicTheme.cpp ..\..\Source\FlowGraph\XTPFlowGraphNode.cpp ..\..\Source\FlowGraph\XTPFlowGraphNodeGroup.cpp ..\..\Source\FlowGraph\XTPFlowGraphNodeGroups.cpp ..\..\Source\FlowGraph\XTPFlowGraphNodes.cpp ..\..\Source\FlowGraph\XTPFlowGraphPage.cpp ..\..\Source\FlowGraph\XTPFlowGraphPageHistory.cpp ..\..\Source\FlowGraph\XTPFlowGraphPages.cpp ..\..\Source\FlowGraph\XTPFlowGraphPaintManager.cpp ..\..\Source\FlowGraph\XTPFlowGraphSelectedElements.cpp ..\..\Source\FlowGraph\XTPFlowGraphUndoManager.cpp ..\..\Source\GraphicLibrary\XTPGraphicBitmapPng.cpp ..\..\Source\Markup\XTPMarkupBorder.cpp ..\..\Source\Markup\XTPMarkupBuilder.cpp ..\..\Source\Markup\XTPMarkupButton.cpp ..\..\Source\Markup\XTPMarkupCanvas.cpp ..\..\Source\Markup\XTPMarkupContext.cpp ..\..\Source\Markup\XTPMarkupControl.cpp ..\..\Source\Markup\XTPMarkupDecorator.cpp ..\..\Source\Markup\XTPMarkupDeviceContext.cpp ..\..\Source\Markup\XTPMarkupDrawingContext.cpp ..\..\Source\Markup\XTPMarkupFrameworkElement.cpp ..\..\Source\Markup\XTPMarkupGrid.cpp ..\..\Source\Markup\XTPMarkupImage.cpp ..\..\Source\Markup\XTPMarkupInputElement.cpp ..\..\Source\Markup\XTPMarkupKeyboardNavigation.cpp ..\..\Source\Markup\XTPMarkupObject.cpp ..\..\Source\Markup\XTPMarkupPage.cpp ..\..\Source\Markup\XTPMarkupPanel.cpp ..\..\Source\Markup\XTPMarkupParser.cpp ..\..\Source\Markup\XTPMarkupResourceDictionary.cpp ..\..\Source\Markup\XTPMarkupScrollViewer.cpp ..\..\Source\Markup\XTPMarkupShape.cpp ..\..\Source\Markup\XTPMarkupStackPanel.cpp ..\..\Source\Markup\XTPMarkupTextBlock.cpp ..\..\Source\Markup\XTPMarkupThickness.cpp ..\..\Source\Markup\XTPMarkupUIElement.cpp ..\..\Source\Markup\Objects\XTPMarkupBrush.cpp ..\..\Source\Markup\Objects\XTPMarkupGradientStop.cpp ..\..\Source\Markup\Objects\XTPMarkupLinearGradientBrush.cpp ..\..\Source\Markup\Objects\XTPMarkupPoint.cpp ..\..\Source\Markup\Objects\XTPMarkupSolidColorBrush.cpp ..\..\Source\Markup\Grid\XTPMarkupColumnDefinition.cpp ..\..\Source\Markup\Grid\XTPMarkupDefinitionBase.cpp ..\..\Source\Markup\Grid\XTPMarkupDefinitionCollection.cpp ..\..\Source\Markup\Grid\XTPMarkupGridLength.cpp ..\..\Source\Markup\Grid\XTPMarkupRowDefinition.cpp ..\..\Source\Markup\Transform\XTPMarkupRenderTransform.cpp ..\..\Source\Markup\Transform\XTPMarkupRotateTransform.cpp ..\..\Source\Markup\Text\XTPMarkupInline.cpp ..\..\Source\Markup\Text\XTPMarkupRun.cpp ..\..\Source\Markup\Path\XTPMarkupPath.cpp ..\..\Source\Markup\Path\XTPMarkupPathData.cpp ..\..\Source\Markup\Path\XTPMarkupPathGeometry.cpp ..\..\Source\Markup\Path\XTPMarkupPathGeometryBuilder.cpp ..\..\Source\Markup\Path\XTPMarkupPathGeometryFigures.cpp ..\..\Source\PropertyGrid\XTPPropertyGrid.cpp ..\..\Source\PropertyGrid\XTPPropertyGridInplaceButton.cpp ..\..\Source\PropertyGrid\XTPPropertyGridInplaceEdit.cpp ..\..\Source\PropertyGrid\XTPPropertyGridInplaceList.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItem.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItemBool.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItemColor.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItemExt.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItemFont.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItemNumber.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItemOption.cpp ..\..\Source\PropertyGrid\XTPPropertyGridItemSize.cpp ..\..\Source\PropertyGrid\XTPPropertyGridPaintManager.cpp ..\..\Source\PropertyGrid\XTPPropertyGridView.cpp ..\..\Source\ReportControl\XTPReportBorder.cpp ..\..\Source\ReportControl\XTPReportColumn.cpp ..\..\Source\ReportControl\XTPReportColumns.cpp ..\..\Source\ReportControl\XTPReportControl.cpp ..\..\Source\ReportControl\XTPReportControlLocale.cpp ..\..\Source\ReportControl\XTPReportDataManager.cpp ..\..\Source\ReportControl\XTPReportDeprecated.cpp ..\..\Source\ReportControl\XTPReportDragDrop.cpp ..\..\Source\ReportControl\XTPReportFilterEditControl.cpp ..\..\Source\ReportControl\XTPReportGroupRow.cpp ..\..\Source\ReportControl\XTPReportHeader.cpp ..\..\Source\ReportControl\XTPReportHitTestInfo.cpp ..\..\Source\ReportControl\XTPReportHyperlink.cpp ..\..\Source\ReportControl\XTPReportIconNavigator.cpp ..\..\Source\ReportControl\XTPReportNavigator.cpp ..\..\Source\ReportControl\XTPReportPageSetupDialog.cpp ..\..\Source\ReportControl\XTPReportPaintManager.cpp ..\..\Source\ReportControl\XTPReportRecord.cpp ..\..\Source\ReportControl\XTPReportRecordItem.cpp ..\..\Source\ReportControl\XTPReportRecordItemControls.cpp ..\..\Source\ReportControl\XTPReportRecordItemRange.cpp ..\..\Source\ReportControl\XTPReportRecords.cpp ..\..\Source\ReportControl\XTPReportRow.cpp ..\..\Source\ReportControl\XTPReportRows.cpp ..\..\Source\ReportControl\XTPReportSection.cpp ..\..\Source\ReportControl\XTPReportSections.cpp ..\..\Source\ReportControl\XTPReportSelectedRows.cpp ..\..\Source\ReportControl\XTPReportSubListControl.cpp ..\..\Source\ReportControl\XTPReportThickness.cpp ..\..\Source\ReportControl\XTPReportTip.cpp ..\..\Source\ReportControl\XTPReportView.cpp ..\..\Source\ReportControl\TrackControl\XTPTrackBlock.cpp ..\..\Source\ReportControl\TrackControl\XTPTrackControl.cpp ..\..\Source\ReportControl\TrackControl\XTPTrackControlItem.cpp ..\..\Source\ReportControl\TrackControl\XTPTrackHeader.cpp ..\..\Source\ReportControl\TrackControl\XTPTrackPaintManager.cpp ..\..\Source\ReportControl\TrackControl\XTPTrackUndoManager.cpp ..\..\Source\ReportControl\XTPReportRecordItemConstraint.cpp ..\..\Source\ReportControl\ItemTypes\XTPReportRecordItemDateTime.cpp ..\..\Source\ReportControl\XTPReportRecordItemEditOptions.cpp ..\..\Source\ReportControl\ItemTypes\XTPReportRecordItemIcon.cpp ..\..\Source\ReportControl\ItemTypes\XTPReportRecordItemNumber.cpp ..\..\Source\ReportControl\ItemTypes\XTPReportRecordItemPreview.cpp ..\..\Source\ReportControl\ItemTypes\XTPReportRecordItemText.cpp ..\..\Source\ReportControl\ItemTypes\XTPReportRecordItemVariant.cpp ..\..\Source\ReportControl\Behavior\XTPReportBehavior.cpp ..\..\Source\ReportControl\Behavior\XTPReportBehaviorRowModifier.cpp ..\..\Source\ReportControl\Behavior\XTPReportBehaviorRowMouse.cpp ..\..\Source\ReportControl\Behavior\XTPReportBehaviorRowMouseButton.cpp ..\..\Source\ReportControl\Behavior\XTPReportBehaviorSchemeOutlook.cpp ..\..\Source\ReportControl\XTPReportInplaceControls.cpp ..\..\Source\ReportControl\XTPReportInplaceEdit.cpp ..\..\Source\Ribbon\XTPRibbonBackstageControls.cpp ..\..\Source\Ribbon\XTPRibbonBackstagePage.cpp ..\..\Source\Ribbon\XTPRibbonBackstageView.cpp ..\..\Source\Ribbon\XTPRibbonBar.cpp ..\..\Source\Ribbon\XTPRibbonBuilder.cpp ..\..\Source\Ribbon\XTPRibbonControlTab.cpp ..\..\Source\Ribbon\XTPRibbonCustomizePage.cpp ..\..\Source\Ribbon\XTPRibbonCustomizeQuickAccessPage.cpp ..\..\Source\Ribbon\XTPRibbonGroup.cpp ..\..\Source\Ribbon\XTPRibbonGroups.cpp ..\..\Source\Ribbon\XTPRibbonPaintManager.cpp ..\..\Source\Ribbon\XTPRibbonPopups.cpp ..\..\Source\Ribbon\XTPRibbonQuickAccessControls.cpp ..\..\Source\Ribbon\XTPRibbonSystemButton.cpp ..\..\Source\Ribbon\XTPRibbonSystemTheme.cpp ..\..\Source\Ribbon\XTPRibbonTab.cpp ..\..\Source\Ribbon\XTPRibbonTheme.cpp ..\..\Source\ShortcutBar\XTPShortcutBar.cpp ..\..\Source\ShortcutBar\XTPShortcutBarAnimation.cpp ..\..\Source\ShortcutBar\XTPShortcutBarPaintManager.cpp ..\..\Source\ShortcutBar\XTPShortcutBarPane.cpp ..\..\Source\ShortcutBar\XTPShortcutBarPopup.cpp ..\..\Source\SkinFramework\XTPSkinDrawTools.cpp ..\..\Source\SkinFramework\XTPSkinImage.cpp ..\..\Source\SkinFramework\XTPSkinManager.cpp ..\..\Source\SkinFramework\XTPSkinManagerApiHook.cpp ..\..\Source\SkinFramework\XTPSkinManagerColorFilter.cpp ..\..\Source\SkinFramework\XTPSkinManagerModuleList.cpp ..\..\Source\SkinFramework\XTPSkinManagerResource.cpp ..\..\Source\SkinFramework\XTPSkinManagerSchema.cpp ..\..\Source\SkinFramework\XTPSkinObject.cpp ..\..\Source\SkinFramework\XTPSkinObjectButton.cpp ..\..\Source\SkinFramework\XTPSkinObjectComboBox.cpp ..\..\Source\SkinFramework\XTPSkinObjectEdit.cpp ..\..\Source\SkinFramework\XTPSkinObjectFrame.cpp ..\..\Source\SkinFramework\XTPSkinObjectHeader.cpp ..\..\Source\SkinFramework\XTPSkinObjectListBox.cpp ..\..\Source\SkinFramework\XTPSkinObjectListView.cpp ..\..\Source\SkinFramework\XTPSkinObjectMDI.cpp ..\..\Source\SkinFramework\XTPSkinObjectMenu.cpp ..\..\Source\SkinFramework\XTPSkinObjectProgress.cpp ..\..\Source\SkinFramework\XTPSkinObjectScrollBar.cpp ..\..\Source\SkinFramework\XTPSkinObjectSpin.cpp ..\..\Source\SkinFramework\XTPSkinObjectStatusBar.cpp ..\..\Source\SkinFramework\XTPSkinObjectTab.cpp ..\..\Source\SkinFramework\XTPSkinObjectToolBar.cpp ..\..\Source\SkinFramework\XTPSkinObjectTrackBar.cpp ..\..\Source\SkinFramework\XTPSkinObjectTreeView.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditAutoCompleteWnd.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditBufferManager.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditColorComboBox.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditColorSampleText.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditCtrl.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditDoc.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditDrawTextProcessor.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditFindReplaceDlg.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditGoToLineDlg.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditLexCfgFileReader.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditLexClass.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditLexColorFileReader.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditLexParser.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditLineMarksManager.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditPaintManager.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditPropertiesDlg.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditPropertiesPage.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditPropertiesPageColor.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditPropertiesPageEdit.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditPropertiesPageFont.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditSectionManager.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditSelection.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditStruct.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditTextIterator.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditTipWnd.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditToolTipCtrl.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditUndoManager.cpp ..\..\Source\SyntaxEdit\XTPSyntaxEditView.cpp ..\..\Source\TabManager\XTPTabControl.cpp ..\..\Source\TabManager\XTPTabManager.cpp ..\..\Source\TabManager\XTPTabPaintManager.cpp ..\..\Source\TabManager\XTPTabPaintManagerAppearance.cpp ..\..\Source\TabManager\XTPTabPaintManagerColors.cpp ..\..\Source\TaskPanel\XTPTaskPanel.cpp ..\..\Source\TaskPanel\XTPTaskPanelAnimation.cpp ..\..\Source\TaskPanel\XTPTaskPanelGroup.cpp ..\..\Source\TaskPanel\XTPTaskPanelGroupItem.cpp ..\..\Source\TaskPanel\XTPTaskPanelItem.cpp ..\..\Source\TaskPanel\XTPTaskPanelItems.cpp ..\..\Source\TaskPanel\XTPTaskPanelPaintManager.cpp
+         ToolkitPro.cpp
+         XTPCalendarCaptionBarControl.cpp
+         XTPCalendarControl.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarController.cpp
+         XTPCalendarControlView.cpp
+         XTPCalendarCustomDataProvider.cpp
+         XTPCalendarCustomProperties.cpp
+         XTPCalendarData.cpp
+         XTPCalendarDatabaseDataProvider.cpp
+         XTPCalendarDayView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarDayViewDay.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarDayViewEvent.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarDayViewTimeScale.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendardayviewtimescale.cpp(552): warning C4458: “m_tziScale2”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendardayviewtimescale.h(389): note: 参见“CXTPCalendarTimeScalePropertiesDlg::m_tziScale2”的声明
+         XTPCalendarEvent.cpp
+         XTPCalendarEventLabel.cpp
+         XTPCalendarEventPropertiesDlg.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendareventpropertiesdlg.cpp(1289): warning C4456: “nCnt”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendareventpropertiesdlg.cpp(1277): note: 参见“nCnt”的声明
+         XTPCalendarEventRecurrenceDlg.cpp
+         XTPCalendarEvents.cpp
+         XTPCalendarMAPIDataProvider.cpp
+         XTPCalendarMAPIWrapper.cpp
+         正在生成代码...
+         正在编译...
+         XTPCalendarMemoryDataProvider.cpp
+         XTPCalendarMonthView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarMonthViewDay.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarMonthViewEvent.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarMsgNotifier.cpp
+         XTPCalendarOccurSeriesChooseDlg.cpp
+         XTPCalendarOptions.cpp
+         XTPCalendarPaintManager.cpp
+         XTPCalendarRecurrencePattern.cpp
+         XTPCalendarRemindersDialog.cpp
+         XTPCalendarRemindersManager.cpp
+         XTPCalendarResource.cpp
+         XTPCalendarResourcesManager.cpp
+         XTPCalendarTheme.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.cpp(3130): warning C4456: “i”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.cpp(3113): note: 参见“i”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.cpp(3160): warning C4456: “i”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.cpp(3113): note: 参见“i”的声明
+         XTPCalendarThemeOffice2007.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarTimeLineView.cpp
+         XTPCalendarTimeLineViewGroup.cpp
+         XTPCalendarTimeLineViewTimeScale.cpp
+         XTPCalendarTimeZoneHelper.cpp
+         XTPCalendarTip.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         正在生成代码...
+         正在编译...
+         XTPCalendarUtils.cpp
+         XTPCalendarView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarViewDay.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendarviewday.cpp(500): warning C4456: “ptrEvents”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendarviewday.cpp(491): note: 参见“ptrEvents”的声明
+         XTPCalendarViewEvent.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarViewPart.cpp
+         XTPCalendarWeekView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarWeekViewDay.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPCalendarWeekViewEvent.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): warning C4589: Constructor of abstract class 'CXTPCalendarTheme::CTODayViewDayGroup' ignores initializer for virtual base class 'CXTPCalendarThemePart'
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: virtual base classes are only initialized by the most-derived type
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): error C2280: “CXTPCalendarThemePart::CXTPCalendarThemePart(const CXTPCalendarThemePart &)”: 尝试引用已删除的函数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(330): note: 编译器已在此处生成“CXTPCalendarThemePart::CXTPCalendarThemePart”
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\calendar\xtpcalendartheme.h(1239): note: 此诊断出现在编译器生成的函数“CXTPCalendarTheme::CTODayViewDayGroup::CTODayViewDayGroup(const CXTPCalendarTheme::CTODayViewDayGroup &)”中
+         XTPDatePickerControl.cpp
+         XTPDatePickerDaysCollection.cpp
+         XTPDatePickerItemDay.cpp
+         XTPDatePickerItemMonth.cpp
+         XTPDatePickerList.cpp
+         XTPDatePickerPaintManager.cpp
+         XTPChartContent.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\xtpchartcontent.cpp(156): warning C4456: “pDiagram”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\xtpchartcontent.cpp(143): note: 参见“pDiagram”的声明
+         XTPChartContentView.cpp
+         XTPChartControl.cpp
+         XTPChartDiagram.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\xtpchartdiagram.cpp(75): warning C4457: “pView”的声明隐藏了函数参数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\xtpchartdiagram.cpp(69): note: 参见“pView”的声明
+         XTPChartElement.cpp
+         XTPChartElementView.cpp
+         正在生成代码...
+         正在编译...
+         XTPChartLegend.cpp
+         XTPChartLegendItem.cpp
+         XTPChartLegendView.cpp
+         XTPChartPanel.cpp
+         XTPChartSeries.cpp
+         XTPChartSeriesLabel.cpp
+         XTPChartSeriesLabelView.cpp
+         XTPChartSeriesPoint.cpp
+         XTPChartSeriesPointView.cpp
+         XTPChartSeriesStyle.cpp
+         XTPChartSeriesView.cpp
+         XTPChartTitle.cpp
+         XTPChartTitleView.cpp
+         XTPChartAppearance.cpp
+         XTPChartBorder.cpp
+         XTPChartFillStyle.cpp
+         XTPChartLineStyle.cpp
+         XTPChartPalette.cpp
+         XTPChartCircleDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         正在生成代码...
+         正在编译...
+         XTPChartDeviceContext.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartDrawThread.cpp
+         XTPChartLineDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartPieDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartPolygonDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartRectangleDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartTextDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartTransformationDeviceCommand.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPChartPie.cpp
+         XTPChartTypes.cpp
+         XTPChartNumberFormat.cpp
+         XTPChartTextPainter.cpp
+         XTPChartPieDiagram.cpp
+         XTPChartPieSeriesLabel.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pie\xtpchartpieserieslabel.cpp(183): warning C4456: “rcBounds”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pie\xtpchartpieserieslabel.cpp(178): note: 参见“rcBounds”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pie\xtpchartpieserieslabel.cpp(200): warning C4456: “rcBounds”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pie\xtpchartpieserieslabel.cpp(178): note: 参见“rcBounds”的声明
+         XTPChartPieSeriesPointView.cpp
+         XTPChartPieSeriesStyle.cpp
+         XTPChartPieSeriesView.cpp
+         XTPChartBubbleSeriesLabel.cpp
+         XTPChartBubbleSeriesStyle.cpp
+         XTPChartMarker.cpp
+         正在生成代码...
+         正在编译...
+         XTPChartPointSeriesLabel.cpp
+         XTPChartPointSeriesStyle.cpp
+         XTPChartBarSeriesLabel.cpp
+         XTPChartBarSeriesStyle.cpp
+         XTPChartStackedBarSeriesStyle.cpp
+         XTPChartAreaSeriesStyle.cpp
+         XTPChartRangeAreaSeriesLabel.cpp
+         XTPChartRangeSplineAreaSeriesStyle.cpp
+         XTPChartSplineAreaSeriesStyle.cpp
+         XTPChartStackedAreaSeriesStyle.cpp
+         XTPChartStackedSplineAreaSeriesStyle.cpp
+         XTPChartStepAreaSeriesStyle.cpp
+         XTPChartCandleStickSeriesStyle.cpp
+         XTPChartHighLowSeriesStyle.cpp
+         XTPChartFastLineSeriesStyle.cpp
+         XTPChartLineSeriesStyle.cpp
+         XTPChartScatterLineSeriesStyle.cpp
+         XTPChartSplineSeriesStyle.cpp
+         XTPChartStepLineSeriesStyle.cpp
+         XTPChartFunnelDiagram.cpp
+         正在生成代码...
+         正在编译...
+         XTPChartFunnelSeriesLabel.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\funnel\xtpchartfunnelserieslabel.cpp(186): warning C4456: “startPoint”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\funnel\xtpchartfunnelserieslabel.cpp(168): note: 参见“startPoint”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\funnel\xtpchartfunnelserieslabel.cpp(188): warning C4456: “finishPoint”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\funnel\xtpchartfunnelserieslabel.cpp(169): note: 参见“finishPoint”的声明
+         XTPChartFunnelSeriesStyle.cpp
+         XTPChartPyramidDiagram.cpp
+         XTPChartPyramidSeriesLabel.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pyramid\xtpchartpyramidserieslabel.cpp(186): warning C4456: “startPoint”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pyramid\xtpchartpyramidserieslabel.cpp(168): note: 参见“startPoint”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pyramid\xtpchartpyramidserieslabel.cpp(188): warning C4456: “finishPoint”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\styles\pyramid\xtpchartpyramidserieslabel.cpp(169): note: 参见“finishPoint”的声明
+         XTPChartPyramidSeriesStyle.cpp
+         XTPChartGanttSeriesStyle.cpp
+         XTPChartRangeBarSeriesLabel.cpp
+         XTPChartRangeBarSeriesStyle.cpp
+         XTPChartRadarAreaSeriesStyle.cpp
+         XTPChartRadarAreaSeriesView.cpp
+         XTPChartRadarLineSeriesStyle.cpp
+         XTPChartRadarLineSeriesView.cpp
+         XTPChartRadarPointSeriesLabel.cpp
+         XTPChartRadarPointSeriesStyle.cpp
+         XTPChartRadarPointSeriesView.cpp
+         XTPChartRadarSplineAreaSeriesStyle.cpp
+         XTPChartRadarSplineSeriesStyle.cpp
+         XTPChartAxis.cpp
+         XTPChartAxisConstantLines.cpp
+         XTPChartAxisCustomLabels.cpp
+         正在生成代码...
+         正在编译...
+         XTPChartAxisGridLines.cpp
+         XTPChartAxisLabel.cpp
+         XTPChartAxisRange.cpp
+         XTPChartAxisStrips.cpp
+         XTPChartAxisTickMarks.cpp
+         XTPChartAxisTitle.cpp
+         XTPChartAxisView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\diagram\axis\xtpchartaxisview.cpp(534): warning C4456: “nExtraLength”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\diagram\axis\xtpchartaxisview.cpp(504): note: 参见“nExtraLength”的声明
+         XTPChartRadarAxis.cpp
+         XTPChartRadarAxisXView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\diagram\axis\xtpchartradaraxisxview.cpp(293): warning C4456: “nExtraLength”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\diagram\axis\xtpchartradaraxisxview.cpp(275): note: 参见“nExtraLength”的声明
+         XTPChartRadarAxisYView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\diagram\axis\xtpchartradaraxisyview.cpp(319): warning C4456: “nExtraLength”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\chart\diagram\axis\xtpchartradaraxisyview.cpp(300): note: 参见“nExtraLength”的声明
+         XTPChartScaleTypeMap.cpp
+         XTPChartDiagram2D.cpp
+         XTPChartDiagram2DPane.cpp
+         XTPChartDiagram2DSeriesLabel.cpp
+         XTPChartDiagram2DSeriesStyle.cpp
+         XTPChartDiagram2DSeriesView.cpp
+         XTPChartDiagram2DView.cpp
+         XTPChartRadarDiagram.cpp
+         XTPChartRadarDiagramSeriesStyle.cpp
+         XTPChartRadarDiagramSeriesView.cpp
+         正在生成代码...
+         正在编译...
+         XTPChartRadarDiagramView.cpp
+         XTPCommandBar.cpp
+         XTPCommandBarAnimation.cpp
+         XTPCommandBars.cpp
+         XTPCommandBarsFrameHook.cpp
+         XTPControl.cpp
+         XTPControlButton.cpp
+         XTPControlComboBox.cpp
+         XTPControlComboBoxExt.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\commandbars\xtpcontrolcomboboxext.cpp(294): warning C4996: 'GetVersion': 被声明为已否决
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+         XTPControlCustom.cpp
+         XTPControlEdit.cpp
+         XTPControlExt.cpp
+         XTPControlGallery.cpp
+         XTPControlListBox.cpp
+         XTPControlPopup.cpp
+         XTPControlPopupColor.cpp
+         XTPControlProgress.cpp
+         XTPControls.cpp
+         XTPControlScrollBar.cpp
+         XTPControlSlider.cpp
+         正在生成代码...
+         正在编译...
+         XTPCustomizeCommandsPage.cpp
+         XTPCustomizeKeyboardPage.cpp
+         XTPCustomizeMenusPage.cpp
+         XTPCustomizeOptionsPage.cpp
+         XTPCustomizeSheet.cpp
+         XTPCustomizeToolbarsPage.cpp
+         XTPCustomizeTools.cpp
+         XTPDefaultTheme.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\commandbars\xtpdefaulttheme.cpp(236): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\commandbars\xtpdefaulttheme.cpp(210): note: 参见“rc”的声明
+         XTPDialogBar.cpp
+         XTPDockBar.cpp
+         XTPDockContext.cpp
+         XTPDockState.cpp
+         XTPFrameWnd.cpp
+         XTPGalleryListBox.cpp
+         XTPImageEditor.cpp
+         XTPKeyboardManager.cpp
+         XTPMenuBar.cpp
+         XTPMessageBar.cpp
+         XTPMiniToolBar.cpp
+         XTPMouseManager.cpp
+         正在生成代码...
+         正在编译...
+         XTPNativeXPTheme.cpp
+         XTPOffice2003Theme.cpp
+         XTPOfficeTheme.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\commandbars\xtpofficetheme.cpp(229): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\commandbars\xtpofficetheme.cpp(155): note: 参见“rc”的声明
+         XTPPaintManager.cpp
+         XTPPopupBar.cpp
+         XTPPreviewView.cpp
+         XTPReBar.cpp
+         XTPRecentFileList.cpp
+         XTPResourceTheme.cpp
+         XTPScrollBase.cpp
+         XTPShortcutManager.cpp
+         XTPStatusBar.cpp
+         XTPTabClientWnd.cpp
+         XTPTabToolBar.cpp
+         XTPToolBar.cpp
+         XTPColorManager.cpp
+         XTPDrawHelpers.cpp
+         XTPHookManager.cpp
+         XTPImageManager.cpp
+         XTPMarkupRender.cpp
+         正在生成代码...
+         正在编译...
+         XTPMathUtils.cpp
+         XTPNotifyConnection.cpp
+         XTPNumberFormat.cpp
+         XTPPropExchange.cpp
+         XTPResourceImage.cpp
+         XTPResourceManager.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\common\xtpresourcemanager.cpp(565): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+         XTPRichRender.cpp
+         XTPSystemHelpers.cpp
+            Automatically linking with WinMM library
+               (Windows Multimedia System)
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\common\xtpsystemhelpers.cpp(58): warning C4996: 'GetVersionExW': 被声明为已否决
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: 参见“GetVersionExW”的声明
+         XTPToolTipContext.cpp
+         XTPWinThemeWrapper.cpp
+         XTPPoint2.cpp
+         XTPPoint3.cpp
+         XTPButton.cpp
+         XTPButtonTheme.cpp
+         XTPColorPicker.cpp
+         XTPComboBox.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\controls\combo\xtpcombobox.cpp(544): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\controls\combo\xtpcombobox.cpp(319): note: 参见“rc”的声明
+         XTPFontComboBox.cpp
+         XTPBrowseDialog.cpp
+         XTPColorDialog.cpp
+         XTPColorPageCustom.cpp
+         正在生成代码...
+         正在编译...
+         XTPColorPageStandard.cpp
+         XTPPropertyPage.cpp
+         XTPPropertyPageNavigator.cpp
+         XTPPropertySheet.cpp
+         XTPTaskDialog.cpp
+         XTPTaskDialogAPI.cpp
+         XTPTaskDialogClient.cpp
+         XTPTaskDialogControls.cpp
+         XTPTaskDialogFrame.cpp
+         XTPTipOfTheDay.cpp
+         XTPWindowList.cpp
+         XTPBrowseEdit.cpp
+         XTPEdit.cpp
+         XTPHexEdit.cpp
+         XTPMaskEdit.cpp
+         XTPHeaderCtrl.cpp
+         XTPHeaderCtrlTheme.cpp
+         XTPListBase.cpp
+         XTPListCtrlView.cpp
+         XTPSortClass.cpp
+         正在生成代码...
+         正在编译...
+         XTPCheckListBox.cpp
+         XTPEditListBox.cpp
+         XTPListBox.cpp
+         XTPMarkupListBox.cpp
+         XTPShortcutListBox.cpp
+         XTPShortcutListBoxTheme.cpp
+         XTPColorPopup.cpp
+         XTPColorSelectorCtrl.cpp
+         XTPPopupControl.cpp
+         XTPPopupItem.cpp
+         XTPPopupPaintManager.cpp
+         XTPTipWindow.cpp
+         XTPMarqueeCtrl.cpp
+         XTPProgressCtrl.cpp
+         XTPResize.cpp
+         XTPResizeDialog.cpp
+         XTPResizeFormView.cpp
+         XTPResizeGroupBox.cpp
+         XTPResizePoint.cpp
+         XTPResizePropertyPage.cpp
+         正在生成代码...
+         正在编译...
+         XTPResizePropertySheet.cpp
+         XTPResizeRect.cpp
+         XTPPageScroller.cpp
+         XTPScrollBar.cpp
+         XTPDirWatcher.cpp
+         XTPDropSource.cpp
+         XTPShellListBase.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\controls\shell\xtpshelllistbase.cpp(876): warning C4996: 'GetVersion': 被声明为已否决
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+         XTPShellListCtrlView.cpp
+         XTPShellPidl.cpp
+         XTPShellSettings.cpp
+         XTPShellTreeBase.cpp
+         XTPShellTreeCtrlView.cpp
+         XTPTaskbarManager.cpp
+         XTPTrayIcon.cpp
+         XTPSpinButtonCtrl.cpp
+         XTPSplitterWnd.cpp
+         XTPSplitterWndTheme.cpp
+         XTPCaption.cpp
+         XTPCaptionPopupWnd.cpp
+         XTPCaptionTheme.cpp
+         正在生成代码...
+         正在编译...
+         XTPHyperLink.cpp
+         XTPMarkupStatic.cpp
+         XTPSearchOptionsCtrl.cpp
+         XTPExcelTabCtrl.cpp
+         XTPExcelTabCtrlTheme.cpp
+         XTPMDIWndTab.cpp
+         XTPTabBase.cpp
+         XTPTabBaseTheme.cpp
+         XTPTabCtrl.cpp
+         XTPTabCtrlButtons.cpp
+         XTPTabView.cpp
+         XTPMarkupTreeCtrl.cpp
+         XTPTreeBase.cpp
+         XTPTreeCtrlView.cpp
+         XTPAnimationDC.cpp
+         XTPControlTheme.cpp
+         XTPFunctions.cpp
+         XTPGlobal.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\controls\util\xtpglobal.cpp(356): warning C4458: “font”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\controls\util\xtpglobal.h(408): note: 参见“CXTPAuxData::font”的声明
+         XTPMemFile.cpp
+         XTPRegistryManager.cpp
+         正在生成代码...
+         正在编译...
+         XTPUtil.cpp
+         XTPWindowPos.cpp
+         XTButton.cpp
+         XTButtonTheme.cpp
+         XTColorRef.cpp
+         XTComboBoxEx.cpp
+         XTDateTimeCtrl.cpp
+         XTFlatComboBox.cpp
+         XTFlatControlsTheme.cpp
+         XTHtmlView.cpp
+         XTMemDC.cpp
+         XTOutBarCtrl.cpp
+         XTOutBarCtrlTheme.cpp
+         XTThemeManager.cpp
+         XTVC50Helpers.cpp
+         XTPMarkupView.cpp
+         XTPCoreTreeControl.cpp
+         XTPCoreTreeItem.cpp
+         XTPCoreTreePaintManager.cpp
+         XTPDockingPane.cpp
+         正在生成代码...
+         正在编译...
+         XTPDockingPaneAutoHidePanel.cpp
+         XTPDockingPaneBase.cpp
+         XTPDockingPaneBaseContainer.cpp
+         XTPDockingPaneContext.cpp
+         XTPDockingPaneKeyboardHook.cpp
+         XTPDockingPaneLayout.cpp
+         XTPDockingPaneManager.cpp
+         XTPDockingPaneMiniWnd.cpp
+         XTPDockingPanePaintManager.cpp
+         XTPDockingPaneSidePanel.cpp
+         XTPDockingPaneSplitterContainer.cpp
+         XTPDockingPaneTabbedContainer.cpp
+         XTPFlowGraphConnection.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPFlowGraphConnectionPoint.cpp
+         XTPFlowGraphConnectionPoints.cpp
+         XTPFlowGraphConnections.cpp
+         XTPFlowGraphControl.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\flowgraph\xtpflowgraphcontrol.cpp(1095): warning C4456: “pConnectionPoint”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\flowgraph\xtpflowgraphcontrol.cpp(1045): note: 参见“pConnectionPoint”的声明
+         XTPFlowGraphDrawContext.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPFlowGraphDrawContextGdiPlus.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPFlowGraphEditItem.cpp
+         正在生成代码...
+         正在编译...
+         XTPFlowGraphElement.cpp
+         XTPFlowGraphImage.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPFlowGraphMetallicTheme.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPFlowGraphNode.cpp
+         XTPFlowGraphNodeGroup.cpp
+         XTPFlowGraphNodeGroups.cpp
+         XTPFlowGraphNodes.cpp
+         XTPFlowGraphPage.cpp
+         XTPFlowGraphPageHistory.cpp
+         XTPFlowGraphPages.cpp
+         XTPFlowGraphPaintManager.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\flowgraph\xtpflowgraphpaintmanager.cpp(550): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\flowgraph\xtpflowgraphpaintmanager.cpp(546): note: 参见“rc”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\flowgraph\xtpflowgraphpaintmanager.cpp(558): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\flowgraph\xtpflowgraphpaintmanager.cpp(546): note: 参见“rc”的声明
+         XTPFlowGraphSelectedElements.cpp
+         XTPFlowGraphUndoManager.cpp
+         XTPGraphicBitmapPng.cpp
+         XTPMarkupBorder.cpp
+         XTPMarkupBuilder.cpp
+         XTPMarkupButton.cpp
+         XTPMarkupCanvas.cpp
+         XTPMarkupContext.cpp
+         XTPMarkupControl.cpp
+         正在生成代码...
+         正在编译...
+         XTPMarkupDecorator.cpp
+         XTPMarkupDeviceContext.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPMarkupDrawingContext.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(633): warning C4458: “nativeCap”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(647): note: 参见“Gdiplus::CustomLineCap::nativeCap”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(359): warning C4458: “nativeImageAttr”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusimageattributes.h(373): note: 参见“Gdiplus::ImageAttributes::nativeImageAttr”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(291): warning C4458: “nativeMatrix”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusmatrix.h(305): note: 参见“Gdiplus::Matrix::nativeMatrix”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(86): warning C4458: “nativeBrush”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbrush.h(99): note: 参见“Gdiplus::Brush::nativeBrush”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(457): warning C4458: “nativePen”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspen.h(471): note: 参见“Gdiplus::Pen::nativePen”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(879): warning C4458: “nativePath”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(893): note: 参见“Gdiplus::GraphicsPath::nativePath”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1063): warning C4458: “nativeIterator”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdipluspath.h(1077): note: 参见“Gdiplus::GraphicsPathIterator::nativeIterator”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusregion.h(501): warning C4458: “nativeRegion”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(165): note: 参见“Gdiplus::Region::nativeRegion”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusbitmap.h(503): warning C4458: “nativeImage”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\graphiclibrary\gdiplus\gdiplusheaders.h(479): note: 参见“Gdiplus::Image::nativeImage”的声明
+         XTPMarkupFrameworkElement.cpp
+         XTPMarkupGrid.cpp
+         XTPMarkupImage.cpp
+         XTPMarkupInputElement.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupinputelement.cpp(617): warning C4457: “pProperty”的声明隐藏了函数参数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupinputelement.cpp(524): note: 参见“pProperty”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupinputelement.cpp(621): warning C4457: “pNewValue”的声明隐藏了函数参数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupinputelement.cpp(524): note: 参见“pNewValue”的声明
+         XTPMarkupKeyboardNavigation.cpp
+         XTPMarkupObject.cpp
+         XTPMarkupPage.cpp
+         XTPMarkupPanel.cpp
+         XTPMarkupParser.cpp
+         XTPMarkupResourceDictionary.cpp
+         XTPMarkupScrollViewer.cpp
+         XTPMarkupShape.cpp
+         XTPMarkupStackPanel.cpp
+         XTPMarkupTextBlock.cpp
+         XTPMarkupThickness.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(136): warning C4458: “left”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(138): note: 参见“CXTPMarkupThickness::left”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(136): warning C4458: “top”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(139): note: 参见“CXTPMarkupThickness::top”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(136): warning C4458: “right”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(140): note: 参见“CXTPMarkupThickness::right”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(136): warning C4458: “bottom”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(141): note: 参见“CXTPMarkupThickness::bottom”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(145): warning C4458: “left”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(138): note: 参见“CXTPMarkupThickness::left”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(145): warning C4458: “top”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(139): note: 参见“CXTPMarkupThickness::top”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(145): warning C4458: “right”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(140): note: 参见“CXTPMarkupThickness::right”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(145): warning C4458: “bottom”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(141): note: 参见“CXTPMarkupThickness::bottom”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(154): warning C4458: “left”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(138): note: 参见“CXTPMarkupThickness::left”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(154): warning C4458: “top”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(139): note: 参见“CXTPMarkupThickness::top”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(154): warning C4458: “right”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(140): note: 参见“CXTPMarkupThickness::right”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(154): warning C4458: “bottom”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(141): note: 参见“CXTPMarkupThickness::bottom”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(163): warning C4458: “left”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(138): note: 参见“CXTPMarkupThickness::left”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(163): warning C4458: “top”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(139): note: 参见“CXTPMarkupThickness::top”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(163): warning C4458: “right”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(140): note: 参见“CXTPMarkupThickness::right”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(163): warning C4458: “bottom”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(141): note: 参见“CXTPMarkupThickness::bottom”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(170): warning C4458: “left”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(138): note: 参见“CXTPMarkupThickness::left”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(170): warning C4458: “top”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(139): note: 参见“CXTPMarkupThickness::top”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(170): warning C4458: “right”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(140): note: 参见“CXTPMarkupThickness::right”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.cpp(170): warning C4458: “bottom”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupthickness.h(141): note: 参见“CXTPMarkupThickness::bottom”的声明
+         XTPMarkupUIElement.cpp
+         XTPMarkupBrush.cpp
+         正在生成代码...
+         正在编译...
+         XTPMarkupGradientStop.cpp
+         XTPMarkupLinearGradientBrush.cpp
+         XTPMarkupPoint.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\objects\xtpmarkuppoint.cpp(62): warning C4458: “x”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupdrawingcontext.h(132): note: 参见“CXTPMarkupPoint::x”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\objects\xtpmarkuppoint.cpp(62): warning C4458: “y”的声明隐藏了类成员
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\markup\xtpmarkupdrawingcontext.h(133): note: 参见“CXTPMarkupPoint::y”的声明
+         XTPMarkupSolidColorBrush.cpp
+         XTPMarkupColumnDefinition.cpp
+         XTPMarkupDefinitionBase.cpp
+         XTPMarkupDefinitionCollection.cpp
+         XTPMarkupGridLength.cpp
+         XTPMarkupRowDefinition.cpp
+         XTPMarkupRenderTransform.cpp
+         XTPMarkupRotateTransform.cpp
+         XTPMarkupInline.cpp
+         XTPMarkupRun.cpp
+         XTPMarkupPath.cpp
+         XTPMarkupPathData.cpp
+         XTPMarkupPathGeometry.cpp
+         XTPMarkupPathGeometryBuilder.cpp
+         XTPMarkupPathGeometryFigures.cpp
+         XTPPropertyGrid.cpp
+         XTPPropertyGridInplaceButton.cpp
+         正在生成代码...
+         正在编译...
+         XTPPropertyGridInplaceEdit.cpp
+         XTPPropertyGridInplaceList.cpp
+         XTPPropertyGridItem.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\propertygrid\xtppropertygriditem.cpp(472): warning C4838: 从“int”转换到“UINT”需要收缩转换
+         XTPPropertyGridItemBool.cpp
+         XTPPropertyGridItemColor.cpp
+         XTPPropertyGridItemExt.cpp
+         XTPPropertyGridItemFont.cpp
+         XTPPropertyGridItemNumber.cpp
+         XTPPropertyGridItemOption.cpp
+         XTPPropertyGridItemSize.cpp
+         XTPPropertyGridPaintManager.cpp
+         XTPPropertyGridView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\propertygrid\xtppropertygridview.cpp(583): warning C4838: 从“int”转换到“UINT”需要收缩转换
+         XTPReportBorder.cpp
+         XTPReportColumn.cpp
+         XTPReportColumns.cpp
+         XTPReportControl.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportcontrol.cpp(2293): warning C4457: “nPos”的声明隐藏了函数参数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportcontrol.cpp(2236): note: 参见“nPos”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportcontrol.cpp(5666): warning C4456: “bRelay”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportcontrol.cpp(5647): note: 参见“bRelay”的声明
+         XTPReportControlLocale.cpp
+         XTPReportDataManager.cpp
+         XTPReportDeprecated.cpp
+         XTPReportDragDrop.cpp
+         正在生成代码...
+         正在编译...
+         XTPReportFilterEditControl.cpp
+         XTPReportGroupRow.cpp
+         XTPReportHeader.cpp
+         XTPReportHitTestInfo.cpp
+         XTPReportHyperlink.cpp
+         XTPReportIconNavigator.cpp
+         XTPReportNavigator.cpp
+         XTPReportPageSetupDialog.cpp
+         XTPReportPaintManager.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportpaintmanager.cpp(2494): warning C4456: “rect”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportpaintmanager.cpp(2444): note: 参见“rect”的声明
+         XTPReportRecord.cpp
+         XTPReportRecordItem.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportrecorditem.cpp(1351): warning C4456: “pControl”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportrecorditem.cpp(1331): note: 参见“pControl”的声明
+         XTPReportRecordItemControls.cpp
+         XTPReportRecordItemRange.cpp
+         XTPReportRecords.cpp
+         XTPReportRow.cpp
+         XTPReportRows.cpp
+         XTPReportSection.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportsection.cpp(892): warning C4457: “pRow”的声明隐藏了函数参数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportsection.cpp(860): note: 参见“pRow”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportsection.cpp(909): warning C4457: “pRow”的声明隐藏了函数参数
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportsection.cpp(860): note: 参见“pRow”的声明
+         XTPReportSections.cpp
+         XTPReportSelectedRows.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportselectedrows.cpp(414): warning C4456: “iB”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportselectedrows.cpp(401): note: 参见“iB”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportselectedrows.cpp(415): warning C4456: “iE”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\xtpreportselectedrows.cpp(401): note: 参见“iE”的声明
+         XTPReportSubListControl.cpp
+         正在生成代码...
+         正在编译...
+         XTPReportThickness.cpp
+         XTPReportTip.cpp
+         XTPReportView.cpp
+         XTPTrackBlock.cpp
+         XTPTrackControl.cpp
+         XTPTrackControlItem.cpp
+         XTPTrackHeader.cpp
+         XTPTrackPaintManager.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\trackcontrol\xtptrackpaintmanager.cpp(200): warning C4456: “dx”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\trackcontrol\xtptrackpaintmanager.cpp(154): note: 参见“dx”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\trackcontrol\xtptrackpaintmanager.cpp(250): warning C4456: “nPos”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\reportcontrol\trackcontrol\xtptrackpaintmanager.cpp(222): note: 参见“nPos”的声明
+         XTPTrackUndoManager.cpp
+         XTPReportRecordItemConstraint.cpp
+         XTPReportRecordItemDateTime.cpp
+         XTPReportRecordItemEditOptions.cpp
+         XTPReportRecordItemIcon.cpp
+         XTPReportRecordItemNumber.cpp
+         XTPReportRecordItemPreview.cpp
+         XTPReportRecordItemText.cpp
+         XTPReportRecordItemVariant.cpp
+         XTPReportBehavior.cpp
+         XTPReportBehaviorRowModifier.cpp
+         XTPReportBehaviorRowMouse.cpp
+         正在生成代码...
+         正在编译...
+         XTPReportBehaviorRowMouseButton.cpp
+         XTPReportBehaviorSchemeOutlook.cpp
+         XTPReportInplaceControls.cpp
+         XTPReportInplaceEdit.cpp
+         XTPRibbonBackstageControls.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstagecontrols.cpp(185): warning C4456: “pImage”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstagecontrols.cpp(156): note: 参见“pImage”的声明
+         XTPRibbonBackstagePage.cpp
+         XTPRibbonBackstageView.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstageview.cpp(478): warning C4456: “pImage”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstageview.cpp(470): note: 参见“pImage”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstageview.cpp(572): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstageview.cpp(524): note: 参见“rc”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstageview.cpp(579): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbackstageview.cpp(524): note: 参见“rc”的声明
+         XTPRibbonBar.cpp
+         XTPRibbonBuilder.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbuilder.cpp(519): warning C4456: “strElementName”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbuilder.cpp(491): note: 参见“strElementName”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbuilder.cpp(541): warning C4456: “pxElements”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbuilder.cpp(508): note: 参见“pxElements”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbuilder.cpp(636): warning C4456: “pxElements”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonbuilder.cpp(603): note: 参见“pxElements”的声明
+         XTPRibbonControlTab.cpp
+         XTPRibbonCustomizePage.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribboncustomizepage.cpp(569): warning C4456: “strCaption”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribboncustomizepage.cpp(557): note: 参见“strCaption”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribboncustomizepage.cpp(579): warning C4456: “strCaption”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribboncustomizepage.cpp(569): note: 参见“strCaption”的声明
+         XTPRibbonCustomizeQuickAccessPage.cpp
+         XTPRibbonGroup.cpp
+         XTPRibbonGroups.cpp
+         XTPRibbonPaintManager.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(670): warning C4456: “rcRibbonClient”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(640): note: 参见“rcRibbonClient”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(671): warning C4456: “rcRibbonTabs”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(644): note: 参见“rcRibbonTabs”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(1044): warning C4456: “pImage”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(1006): note: 参见“pImage”的声明
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(1213): warning C4456: “pImage”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbonpaintmanager.cpp(1175): note: 参见“pImage”的声明
+         XTPRibbonPopups.cpp
+         XTPRibbonQuickAccessControls.cpp
+         XTPRibbonSystemButton.cpp
+         XTPRibbonSystemTheme.cpp
+         XTPRibbonTab.cpp
+         正在生成代码...
+         正在编译...
+         XTPRibbonTheme.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbontheme.cpp(1168): warning C4456: “rc”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\ribbon\xtpribbontheme.cpp(1100): note: 参见“rc”的声明
+         XTPShortcutBar.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\shortcutbar\xtpshortcutbar.cpp(240): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+         XTPShortcutBarAnimation.cpp
+         XTPShortcutBarPaintManager.cpp
+         XTPShortcutBarPane.cpp
+         XTPShortcutBarPopup.cpp
+         XTPSkinDrawTools.cpp
+         XTPSkinImage.cpp
+         XTPSkinManager.cpp
+         XTPSkinManagerApiHook.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(1873): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(3519): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+         XTPSkinManagerColorFilter.cpp
+         XTPSkinManagerModuleList.cpp
+         XTPSkinManagerResource.cpp
+         XTPSkinManagerSchema.cpp
+         XTPSkinObject.cpp
+         XTPSkinObjectButton.cpp
+         XTPSkinObjectComboBox.cpp
+         XTPSkinObjectEdit.cpp
+         XTPSkinObjectFrame.cpp
+         XTPSkinObjectHeader.cpp
+         正在生成代码...
+         正在编译...
+         XTPSkinObjectListBox.cpp
+         XTPSkinObjectListView.cpp
+         XTPSkinObjectMDI.cpp
+         XTPSkinObjectMenu.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\skinframework\xtpskinobjectmenu.cpp(1027): warning C4456: “pItem”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\skinframework\xtpskinobjectmenu.cpp(942): note: 参见“pItem”的声明
+         XTPSkinObjectProgress.cpp
+         XTPSkinObjectScrollBar.cpp
+         XTPSkinObjectSpin.cpp
+         XTPSkinObjectStatusBar.cpp
+         XTPSkinObjectTab.cpp
+         XTPSkinObjectToolBar.cpp
+         XTPSkinObjectTrackBar.cpp
+         XTPSkinObjectTreeView.cpp
+         XTPSyntaxEditAutoCompleteWnd.cpp
+         XTPSyntaxEditBufferManager.cpp
+         XTPSyntaxEditColorComboBox.cpp
+         XTPSyntaxEditColorSampleText.cpp
+         XTPSyntaxEditCtrl.cpp
+         XTPSyntaxEditDoc.cpp
+         XTPSyntaxEditDrawTextProcessor.cpp
+         XTPSyntaxEditFindReplaceDlg.cpp
+         正在生成代码...
+         正在编译...
+         XTPSyntaxEditGoToLineDlg.cpp
+         XTPSyntaxEditLexCfgFileReader.cpp
+         XTPSyntaxEditLexClass.cpp
+         XTPSyntaxEditLexColorFileReader.cpp
+     1>e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\syntaxedit\xtpsyntaxeditlexcolorfilereader.cpp(934): warning C4456: “arPassedString”的声明隐藏了上一个本地声明
+         e:\work\mfcui\install\xtreme toolkitpro v15.3.1\source\syntaxedit\xtpsyntaxeditlexcolorfilereader.cpp(847): note: 参见“arPassedString”的声明
+         XTPSyntaxEditLexParser.cpp
+         XTPSyntaxEditLineMarksManager.cpp
+         XTPSyntaxEditPaintManager.cpp
+         XTPSyntaxEditPropertiesDlg.cpp
+         XTPSyntaxEditPropertiesPage.cpp
+         XTPSyntaxEditPropertiesPageColor.cpp
+         XTPSyntaxEditPropertiesPageEdit.cpp
+         XTPSyntaxEditPropertiesPageFont.cpp
+         XTPSyntaxEditSectionManager.cpp
+         XTPSyntaxEditSelection.cpp
+         XTPSyntaxEditStruct.cpp
+         XTPSyntaxEditTextIterator.cpp
+         XTPSyntaxEditTipWnd.cpp
+         XTPSyntaxEditToolTipCtrl.cpp
+         XTPSyntaxEditUndoManager.cpp
+         XTPSyntaxEditView.cpp
+         正在生成代码...
+         正在编译...
+         XTPTabControl.cpp
+         XTPTabManager.cpp
+         XTPTabPaintManager.cpp
+         XTPTabPaintManagerAppearance.cpp
+         XTPTabPaintManagerColors.cpp
+         XTPTaskPanel.cpp
+         XTPTaskPanelAnimation.cpp
+         XTPTaskPanelGroup.cpp
+         XTPTaskPanelGroupItem.cpp
+         XTPTaskPanelItem.cpp
+         XTPTaskPanelItems.cpp
+         XTPTaskPanelPaintManager.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\Work\MFCUI\install\Xtreme ToolkitPro v15.3.1\Workspace\ToolkitPro\ToolkitProShared_vc140.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:01:30.71
